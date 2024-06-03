@@ -12,7 +12,7 @@
                         <div class="row g-0">
 
                             <div class="col-md-4">
-                                <img src="{{ asset($project->image) }}" class="card-img-top h-100 alt="{{ $project->title }}">
+                                <img src="{{ asset($project->image) }}" class="card-img-top h-100" alt="{{ $project->title }}">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">

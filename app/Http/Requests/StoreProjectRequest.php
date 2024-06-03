@@ -27,7 +27,7 @@ class StoreProjectRequest extends FormRequest
             'subtitle' => 'nullable|string|max:255',
             'description' => 'required|string',
             'image' => 'nullable|image|max:500',
-            'date' => 'nullable|date'
+            'date' => 'nullable|date',
             'url_code' => 'nullable|string|max:255',
             'url_web' => 'required|url|max:255',
             'technologies' => 'exists:technologies,id',
